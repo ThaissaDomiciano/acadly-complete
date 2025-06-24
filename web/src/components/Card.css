@@ -1,0 +1,136 @@
+.card {
+    background-color: var(--branco);
+    border-radius: 16px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    transition: transform 0.2s ease;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.titulo-card {
+    color: var(--cor-primaria);
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.professor-label {
+    color: var(--cor-clara);
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.linha-separadora {
+    height: 1px;
+    background-color: var(--cor-divisor);
+    margin: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.status {
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.card-footer-botoes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--cor-primaria);
+    padding: 16px;
+    border-top: 1px solid var(--cor-divisor);
+    height: 60px;
+}
+
+.card-footer-botoes button {
+    background: none;
+    color: var(--cor-secundaria);
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.input-edicao {
+  width: 100%;
+  padding: 6px 10px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.btn-salvar,
+.btn-cancelar,
+.btn-editar,
+.btn-excluir {
+  margin: 4px 8px 0 0;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.acoes-icones,
+.edicao-icones {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.acoes-icones svg,
+.edicao-icones svg {
+  cursor: pointer;
+  color: #999999; 
+  font-size: 18px;
+  transition: color 0.2s ease;
+}
+
+.acoes-icones svg:hover,
+.edicao-icones svg:hover {
+  color: #555555; 
+}
+
+.edicao-icones {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.icone-editar:hover {
+  color: #555555;
+}
+
+.acoes-icones span:hover {
+  color: #555555;
+}
+
+.texto-editar {
+  color: var(--cor-clara);
+  font-size: 14px;
+}
+

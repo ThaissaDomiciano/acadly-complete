@@ -1,0 +1,72 @@
+.atividades-turmas-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.atividade-nota-card {
+  background: var(--branco);
+  border-radius: 16px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  margin: 1rem 2rem;
+  overflow: hidden;
+}
+
+.atividade-topo {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  cursor: pointer;
+  border-bottom: 1px solid var(--cor-divisor);
+}
+
+.atividade-topo h3 {
+  color: var(--cor-primaria);
+  margin: 0;
+}
+
+.atividade-topo p {
+  margin: 4px 0 0;
+  color: var(--fonte-titulo);
+}
+
+.seta {
+  font-size: 1.2rem;
+  color: var(--fonte-titulo);
+}
+
+.atividade-detalhes {
+  padding: 1rem;
+  background-color: var(--cor-de-fundo);
+}
+
+.descricao {
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.nota-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nota-status div p:first-child {
+  font-size: 0.8rem;
+  color: var(--fonte-titulo);
+  margin: 0;
+}
+
+.nota-status div p:last-child {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.botao-ver-pdf {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}

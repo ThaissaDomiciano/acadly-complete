@@ -1,0 +1,81 @@
+.container-atividades-aluno {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('../../assets/fundo-aluno.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+
+.atividades-turmas-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.atividades-turmas {
+  margin-top: 2rem;
+}
+
+.atividade-card {
+  background: var(--branco);
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.atividade-info h3 {
+  color: var(--cor-primaria);
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.atividade-info p {
+  font-size: 0.9rem;
+  color: var(--fonte-titulo);
+}
+
+.atividade-status {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.entregue {
+  color: var(--verde);
+  font-weight: bold;
+}
+
+.pendente {
+  color: var(--vermelho);
+  font-weight: bold;
+}
+
+.botao-acessar, .botao-concluir {
+  background: var(--cor-de-fundo);
+  border: none;
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: background 0.3s;
+}
+
+.botao-acessar:hover {
+  background-color: var(--fundo-escuro);
+}
+
+.botao-concluir {
+  color: var(--verde);
+  font-size: 1.1rem;
+}
+
+.botao-concluir:hover {
+  background-color: var(--fundo-escuro);
+}

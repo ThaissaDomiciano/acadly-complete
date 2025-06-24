@@ -1,0 +1,119 @@
+.banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 25px;
+}
+
+.turmas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px; 
+  padding: 20px;
+}
+
+
+.form-turma-container {
+    background-color: var(--branco);
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.titulo-turma {
+    font-size: 20px;
+    color: var(--cinza-escuro);
+    margin-bottom: 10px;
+}
+
+.titulo-professor,
+.subtitulo-professor {
+    font-size: 25px;
+    color: var(--cor-clara);
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.criar-turma-box {
+  background-color: var(--branco);
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 900px;
+  margin: 40px auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.criar-turma-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.label-turma {
+  font-size: 14px;
+  color: var(--cor-clara);
+  font-weight: bold;
+}
+
+.input-criar-turma {
+  min-width: 300px;
+  max-width: 400px;
+  padding: 12px 14px;
+  border: 1px solid var(--cor-divisor);
+  border-radius: 10px;
+  background-color: var(--branco);
+  color: var(--cor-escura);
+  font-size: 14px;
+  flex: 1;
+}
+
+.btn-criar-turma {
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--cor-primaria);
+  color: var(--branco);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-criar-turma:hover {
+  background-color: var(--cor-primaria-hover);
+  color: var(--cor-secundaria);
+}
+
+.btn-chat-notificacao {
+ display: flex;
+  align-items: center; /* Alinha verticalmente ícone + texto */
+  justify-content: center;
+  gap: 8px; /* espaço entre ícone e texto */
+  background-color: var(--cor-primaria);
+  color: var(--branco);
+  padding: 12px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-chat-notificacao:hover {
+  background-color: var(--cor-primaria-hover);
+  color: var(--cor-secundaria);
+}
+
+.botao-notificacao {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  margin: 30px auto;
+}

@@ -1,0 +1,60 @@
+.container-notificacoes {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('../../assets/fundo-professor.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+
+.form-notificacao {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: var(--branco);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 32px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.form-notificacao input,
+.form-notificacao select,
+.form-notificacao textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--cor-divisor);
+  font-size: 14px;
+}
+
+.form-notificacao button {
+  background-color: var(--cor-primaria);
+  color: var(--branco);
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.lista-notificacoes {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+}
+
+.lista-notificacoes li {
+  background: var(--branco);
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.texto-notificacoes {
+  color: var(--branco);
+  text-transform: uppercase;
+  margin-top: 20px;
+}

@@ -1,0 +1,37 @@
+:root {
+    --cor-primaria: #253D81;
+    --cor-primaria-hover: #043565;
+    --cor-secundaria: #FFD118;
+    --cor-de-fundo: #FAFAFA;
+    --cor-clara: #6B7280;
+    --cor-divisor: #CFCFCF;
+    --branco: #FFFFFF;
+    --vermelho: #DD4040;
+    --vermelho-escuro: #AB3030;
+    --verde: #2ECA5D;
+    --cinza-escuro: #37474F;
+    --fundo-escuro: #EBEBEB;
+    --fonte-titulo: #737373;
+    --fonte-principal: 'montserrat', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-principal);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+html, body, #root {
+    height: 100%;
+}

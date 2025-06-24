@@ -1,0 +1,127 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--cor-de-fundo);
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%; 
+}
+
+.logo-header {
+    width: 180px;
+    height: 28px;
+}
+.list-header {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px;
+  list-style-type: none;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+
+.link-header {
+  text-decoration: none;
+  color: var(--cor-primaria);
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 12px;
+  position: relative; 
+}
+
+.link-header::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: var(--cor-secundaria);
+  transition: 0.3s;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+}
+
+.link-header:hover {
+  color: var(--cor-secundaria);
+}
+
+.link-header:hover::after {
+  width: 100%;
+}
+
+.perfil-wrapper {
+  position: relative;
+}
+
+.perfil-btn {
+  background: var(--cor-de-fundo);
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  color: var(--cor-clara);
+  padding: 12px 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.seta {
+  transition: transform 0.2s ease;
+}
+
+.seta.aberta {
+  transform: rotate(180deg);
+}
+
+.menu-suspenso {
+  position: absolute;
+  top: 110%;
+  right: 0;
+  background-color: var(--branco);
+  border-radius: 16px;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.1);
+  padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 9999;
+}
+
+.item-menu {
+  background: var(--cor-de-fundo);
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.2);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: var(--cor-clara);
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.item-menu:hover {
+  background-color: var(--cor-divisor);
+}
+
+.item-menu.sair {
+  color: var(--vermelho);
+}
+
+a,
+button {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background: none;
+}
+

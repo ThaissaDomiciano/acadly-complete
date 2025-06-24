@@ -1,0 +1,33 @@
+.titulo-aluno,
+.subtitulo-aluno {
+    font-size: 25px;
+    color: var(--cor-clara);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.turmas-aluno {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.btn-notificacoes {
+  padding: 12px 24px;
+  background-color: var(--cor-primaria);
+  color: var(--branco);
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-notificacoes:hover {
+  background-color: var(--cor-primaria-hover);
+  color: var(--cor-secundaria);
+}
+

@@ -1,0 +1,57 @@
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+.input, .login-input, .select-input {
+    width: 100%;
+    max-width: 350px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid var(--cor-primaria);
+    border-radius: 10px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+}
+
+.input::placeholder, .login-input::placeholder {
+    color: var(--cor-clara);
+    font-size: 15px;
+}
+
+.button, .login-button {
+    width: 100%;
+    max-width: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.button:hover, .login-button:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    transition: 0.3s;
+}
+
+.title {
+    text-align: center;
+    color: var(--cor-primaria);
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.divider {
+    width: 1.5px;
+    background-color: var(--cor-divisor);
+    height: 80%;
+    margin-top: 50px;
+}
+
+
