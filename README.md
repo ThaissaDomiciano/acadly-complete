@@ -27,6 +27,7 @@ O **Acadly** é uma plataforma web e mobile criada para facilitar o gerenciament
 - React Native
 
 
+![Desktop - 1](https://github.com/user-attachments/assets/cfb8f45e-4cab-43c6-8887-a65957c55cdf)
 
 
 
